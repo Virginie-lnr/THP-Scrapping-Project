@@ -17,6 +17,7 @@ end
 
 # print crypto_name_array
 # print crypto_price_array
+final_array = []
 
-my_hash = Hash[crypto_name_array.zip(crypto_price_array)]
-puts "voici mon tableau combine : #{my_hash}"
+final_array << Hash[crypto_name_array.zip(crypto_price_array)]
+puts "voici mon tableau combine : #{final_array}"
